@@ -1,0 +1,11 @@
+.import/
+.export/
+*.import
+*.translation
+*.mono
+.mono/
+.vscode/
+.idea/
+.DS_Store
+
+
