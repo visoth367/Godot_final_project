@@ -1,1 +1,4 @@
 res://Scenes/main.tscn
+res://Scenes/audio_stream_player_2d.gd
+res://Scenes/BackgroundMusic.gd
+res://Scripts/points_manager.gd

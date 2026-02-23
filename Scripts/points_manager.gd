@@ -23,4 +23,3 @@ func on_award_points(position: Vector2):
 	points += points_increment
 	ui.set_points(points)
 	
-

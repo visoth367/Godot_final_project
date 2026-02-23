@@ -1,6 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769759284
-::res://Assets/::1694623226
+::res://::1771830232
+01 - Theme.mp3::AudioStreamMP3::8704204522672969829::1771830024::1771830232::1::::<><><>0<>0<>7bdfa66a3de96bf2f15e4a645db46bf4<>res://.godot/imported/01 - Theme.mp3-01b031ea606e89f6db26f8cec59b4fc8.mp3str::
+47. Ending.mp3::AudioStreamMP3::4715492169768663733::1771830030::1771830068::1::::<><><>0<>0<>3698dd4799c167e3669e53068b80c0b3<>res://.godot/imported/47. Ending.mp3-7730332c210bf2cdbdb4f02d31257b17.mp3str::
+::res://Assets/::1771829774
 Barrel.png::CompressedTexture2D::2917008494040788027::1694623226::1769759285::1::::<><><>0<>0<>6a0859ff3b4b1457923bab89ee89de31<>res://.godot/imported/Barrel.png-016e9adf5460210a3b4d5fd39193870e.ctex::
 DonkeyKong.png::CompressedTexture2D::7968670280761177760::1694623226::1769759285::1::::<><><>0<>0<>fed43ab864d3d74fb6c5445f11861903<>res://.godot/imported/DonkeyKong.png-5b5a3e7b0a6cab138c4f158b1f375852.ctex::
 Hammer.png::CompressedTexture2D::6054331435005626183::1694623226::1769759285::1::::<><><>0<>0<>2bf28e161006488dac2df241cbf870df<>res://.godot/imported/Hammer.png-0ecade54784dc4e6d626dc755307e6a7.ctex::
@@ -26,18 +28,18 @@ Platform.png::CompressedTexture2D::869073795347897919::1694623226::1769759285::1
 Princess.png::CompressedTexture2D::1104146679848005390::1694623226::1769759285::1::::<><><>0<>0<>1c9f847524781f67d18fe7821b9d73a8<>res://.godot/imported/Princess.png-3a941dc5d60032ba2a12448a0a3e6a0c.ctex::
 Retro Gaming.ttf::FontFile::2036988080557512788::1694623226::1769759285::1::::<><><>0<>0<>1deb8a20ff6896fe25b8ded9eda779c0<>res://.godot/imported/Retro Gaming.ttf-eedcff204cbd961c5c0b4aa8cc15441d.fontdata::
 screem.jpg::CompressedTexture2D::7492384843340362922::1694623226::1769759285::1::::<><><>0<>0<>f465f8fcc7ebbcc3dc8169104f89acd6<>res://.godot/imported/screem.jpg-4c576fb140cc3ddb191af2d8edfb5a50.ctex::
-::res://Scenes/::1694623226
+::res://Scenes/::1771830192
 barrel.tscn::PackedScene::3189701725339569159::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/barrel.gd<>uid://bhtax6q42b84f::::res://Assets/Barrel.png
 barrel_spawner.tscn::PackedScene::8867948868206430106::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/spawn_timer.gd<>res://Scripts/barrel_spawner.gd
 hammer.tscn::PackedScene::134969939399725039::1694623226::0::1::::<><><>0<>0<><>::uid://csi07pbkvtu12::::res://Assets/Hammer.png<>res://Scripts/hammer.gd
 ladder.tscn::PackedScene::7045375927196444357::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/ladder.gd<>uid://bhpht7r3g0ruc::::res://Assets/Ladder.png
-main.tscn::PackedScene::99530920602715215::1694623226::0::1::::<><><>0<>0<><>::uid://de0mqpgcx2lwk::::res://Assets/screem.jpg<>uid://brv27lb6lvel2::::res://Scenes/platform.tscn<>uid://c7m3ku44r8e66::::res://Scenes/ladder.tscn<>uid://dlsc3nud4wgqi::::res://Assets/DonkeyKong.png<>uid://dqka02bkf2afk::::res://Scenes/player.tscn<>uid://dylx27rfk52yo::::res://Scenes/barrel_spawner.tscn<>uid://b6m62coecgu6::::res://Scenes/hammer.tscn<>res://Scripts/points_manager.gd<>uid://ch72anv15xyl4::::res://Scenes/princess.tscn<>uid://dlgy0os4wmmt2::::res://Scenes/ui.tscn
+main.tscn::PackedScene::99530920602715215::1771830192::0::1::::<><><>0<>0<><>::uid://de0mqpgcx2lwk::::res://Assets/screem.jpg<>uid://brv27lb6lvel2::::res://Scenes/platform.tscn<>uid://c7m3ku44r8e66::::res://Scenes/ladder.tscn<>uid://dlsc3nud4wgqi::::res://Assets/DonkeyKong.png<>uid://dqka02bkf2afk::::res://Scenes/player.tscn<>uid://dylx27rfk52yo::::res://Scenes/barrel_spawner.tscn<>uid://b6m62coecgu6::::res://Scenes/hammer.tscn<>uid://dpndym5f3s2pg::::res://Scripts/points_manager.gd<>uid://ch72anv15xyl4::::res://Scenes/princess.tscn<>uid://dlgy0os4wmmt2::::res://Scenes/ui.tscn<>uid://dwam8hfxjjw50::::res://01 - Theme.mp3
 platform.tscn::PackedScene::3624680043310242329::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/platform.gd<>uid://mm8rvku3pcpb::::res://Assets/Platform.png
 player.tscn::PackedScene::8302973391813397084::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/player.gd<>uid://bg1exf8smy5e8::::res://Assets/Mario_Run1.png<>uid://c3oiii2x8nfdj::::res://Assets/Mario_Climb.png<>uid://bs2djhms5mm07::::res://Assets/Mario_Run2.png<>uid://bnynv6mimbinh::::res://Assets/mario-death1.png<>uid://bqpod3cwaqt4u::::res://Assets/mario-death2.png<>uid://dd3snad1kmj73::::res://Assets/Mario_Hammer_Idle1.png<>uid://diyqrglgwv1ex::::res://Assets/Mario_Run3.png<>uid://dr7mkwr06v3vi::::res://Assets/mario-death3.png<>uid://cwvte4p8d56fv::::res://Assets/Mario_Hammer_Idle2.png<>uid://dw2reg1u0sj10::::res://Assets/mario-death4.png<>uid://csi07pbkvtu12::::res://Assets/Hammer.png<>uid://cmvq35fycaste::::res://Assets/mario-death5.png<>uid://de27pw0cfblnn::::res://Assets/Mario_Hammer_Run2.png<>uid://dteag1xo3ggll::::res://Assets/Mario_Hammer_Run4.png
 points_label.tscn::PackedScene::473709262841015093::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/points_label.gd<>uid://4ay5p4q02m81::::res://Assets/Retro Gaming.ttf
 princess.tscn::PackedScene::5331863436253824011::1694623226::0::1::::<><><>0<>0<><>::uid://py4etqmgl831::::res://Assets/Princess.png<>res://Scripts/princess.gd
 ui.tscn::PackedScene::7945228214776929969::1694623226::0::1::::<><><>0<>0<><>::res://Scripts/ui.gd<>uid://4ay5p4q02m81::::res://Assets/Retro Gaming.ttf
-::res://Scripts/::1694623226
+::res://Scripts/::1769759285
 barrel.gd::GDScript::2129432697216210089::1694623226::0::1::::Barrel<>RigidBody2D<><>0<>0<><>::
 barrel_spawner.gd::GDScript::7406124687801080554::1694623226::0::1::::<>Node2D<><>0<>0<><>::
 hammer.gd::GDScript::2809562365749078441::1694623226::0::1::::<>Area2D<><>0<>0<><>::

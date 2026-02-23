@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://bohi3icddd3d"]
+[gd_scene load_steps=13 format=3 uid="uid://bohi3icddd3d"]
 
 [ext_resource type="Texture2D" uid="uid://de0mqpgcx2lwk" path="res://Assets/screem.jpg" id="1_4h4sh"]
+[ext_resource type="Script" uid="uid://dmry4ptw74pwm" path="res://Scenes/BackgroundMusic.gd" id="1_6iyac"]
 [ext_resource type="PackedScene" uid="uid://brv27lb6lvel2" path="res://Scenes/platform.tscn" id="2_fsuoi"]
 [ext_resource type="PackedScene" uid="uid://c7m3ku44r8e66" path="res://Scenes/ladder.tscn" id="3_2srjj"]
 [ext_resource type="Texture2D" uid="uid://dlsc3nud4wgqi" path="res://Assets/DonkeyKong.png" id="4_jb7vw"]
@@ -10,13 +11,15 @@
 [ext_resource type="Script" uid="uid://dpndym5f3s2pg" path="res://Scripts/points_manager.gd" id="9_bjmgv"]
 [ext_resource type="PackedScene" uid="uid://ch72anv15xyl4" path="res://Scenes/princess.tscn" id="10_m6y0q"]
 [ext_resource type="PackedScene" uid="uid://dlgy0os4wmmt2" path="res://Scenes/ui.tscn" id="10_r50x2"]
+[ext_resource type="AudioStream" uid="uid://dwam8hfxjjw50" path="res://01 - Theme.mp3" id="11_d1ilt"]
 
 [node name="main" type="Node"]
+script = ExtResource("1_6iyac")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(2497, 821)
+position = Vector2(2962, 1222)
 texture = ExtResource("1_4h4sh")
 
 [node name="Ladders" type="Node" parent="."]
@@ -320,3 +323,6 @@ script = ExtResource("9_bjmgv")
 position = Vector2(-158, -396)
 scale = Vector2(4, 4)
 ui = NodePath("../UI")
+
+[node name="audio_stream_player_2d" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_d1ilt")
