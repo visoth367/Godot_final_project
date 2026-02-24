@@ -1,44 +1,37 @@
-# Donkey Kong-Style Game in Godot
+# Donkey Kong‑Style Game (Godot)
 
-Welcome to the **Donkey Kong-style game** built with **Godot**! This is a 2D platformer game where the player controls a character who must climb ladders, avoid barrels, and defeat enemies while navigating through various levels.
+A 2D platformer game inspired by the classic **Donkey Kong**, built with the **Godot Engine**.
 
----
-
-## **Table of Contents**
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Gameplay](#gameplay)
-- [Controls](#controls)
-- [Development](#development)
-- [License](#license)
+Play as the hero, climb ladders, avoid rolling barrels, grab the hammer, and survive!
 
 ---
 
-## **Introduction**
+## 🕹️ Demo
 
-This is a 2D platformer game inspired by the classic **Donkey Kong**. Developed in **Godot**, the game features mechanics like **ladder climbing**, **barrel dodging**, and **hammer-wielding** to defeat enemies. The player must avoid falling off ladders and navigate through obstacles to survive.
+This is the final project for Godot game development.
 
----
-
-## **Features**
-
-- **2D Platformer**: Move, jump, and climb ladders.
-- **Hammer Mechanic**: Pick up and wield a hammer to defeat enemies.
-- **Barrel Collision**: Avoid rolling barrels to prevent death.
-- **Ladder Climbing**: Use ladders to ascend and descend through platforms.
-- **Game Over Condition**: Fall off the ladder to trigger game over.
-- **Animations**: Various animations for walking, jumping, running with a hammer, and dying.
-- **UI**: Displays the **game over** screen when the player loses.
+Repository: https://github.com/visoth367/Godot_final_project
 
 ---
 
-## **Installation**
+## 📋 Features
 
-To play this game, you’ll need **Godot Engine** (version 3.x or above).
+✔ 2D platformer movement (run, jump, climb)  
+✔ Ladder climbing  
+✔ Barrel obstacles  
+✔ Hammer pickup to defeat enemies  
+✔ Player death & game over logic  
+✔ Animations for idle/run/hammer/die  
+✔ UI for lose/game over screen  
+✔ Background music and sound effects
 
-1. Clone the repository:
+---
 
-   ```bash
-   git clone https://github.com/yourusername/donkeykong-style-game.git
+## 🛠️ Installation
+
+You need **Godot Engine (v4.x)** to run this project.
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/visoth367/Godot_final_project.git
